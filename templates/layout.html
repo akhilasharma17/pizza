@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Title</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Header</h1>
+        </header>
+        <nav>
+                <a href="http://127.0.0.1:5000">Home</a>
+                <a href="http://127.0.0.1:5000/pizza/1">Pizza1</a>
+        </nav>
+
+        <main>
+            <!--jinja-->
+            {%block content%}{%endblock%}
+        </main>
+
+        <footer>
+            <!--&copy; is interpreted as the copyright symbol-->
+            <p>The footer &copy; 2024</p>
+        </footer>
+    </body>
+</html>
