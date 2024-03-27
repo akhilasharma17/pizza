@@ -4,6 +4,7 @@ body{
 	color: purple;
 	background-color: lightgreen;
 }
+
 p{
 	color: blue;
 	font-family: "Cambria";
@@ -11,10 +12,26 @@ p{
 
 nav{ 
 	background-color: lightblue;
-	padding:20px;
+	padding: 30px;
 }
 nav a:hover {
-	background-color: blue;
+	background-color: rgb(33, 123, 126);
 	color: black;
+}
+nav a.active {
+	background-color: #54ca9f;
+	color: rgb(0, 0, 0);
+  }
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+li{
+	display: inline;
+}
+a{
+	display: block;
+	padding: 10px;
 }
 	

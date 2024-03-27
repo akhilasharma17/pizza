@@ -23,7 +23,7 @@ def pizza(id):
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM Pizza WHERE pizza_id=?", (id,))
     pizza = cursor.fetchone()
-    return render_template('pizza.html', pizza=pizza)
+    return render_template('margherita.html', pizza=pizza)
 
 
 if __name__ == "__main__":
